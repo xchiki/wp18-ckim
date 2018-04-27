@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Flag</title>
+        <style>    
+            div { 
+                width:100%; height: 100%; 
+            }
+            
+            section { 
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                grid-template-rows: repeat(13, 30px);
+                align-items: center;
+                justify-items: center;
+            }
+
+/*-------------BLUE-------------*/
+            .blue {
+                grid-column: 1/3;
+                grid-row: 1/7;
+                background: blue;
+                z-index: 1;
+                
+                display: grid;
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-rows: repeat(9, 1fr);
+            }
+            
+            .star1 {
+                width: 35px;
+                margin-top: -4px;
+                justify-content: space-evenly;
+            }
+            
+/*-------------RED-------------*/
+            .red {
+                background: red;
+                grid-column: 1/6;
+            }
+            
+            #r-one {
+                grid-row: 1/2;
+            }
+            
+            #r-two {
+                grid-row: 3/4;
+            }
+            
+            #r-three {
+                grid-row: 5/6;
+            }
+            
+            #r-four {
+                grid-row: 7/8;
+            }
+            
+            #r-five {
+                grid-row: 9/10;
+            }
+            
+            #r-six {
+                grid-row: 11/12;
+            }
+            
+            #r-seven {
+                grid-row: 13/14;
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <div class="blue">
+                <img src="star.svg" class="star1"/>
+                <img src="star.svg" class="star1"/>
+                <img src="star.svg" class="star1"/>
+                <img src="star.svg" class="star1"/>
+                <img src="star.svg" class="star1"/>
+                <img src="star.svg" class="star1"/>
+                
+                
+                
+            </div>
+            <div class="red" id="r-one"></div>
+            <div class="red" id="r-two"></div>
+            <div class="red" id="r-three"></div>
+            <div class="red" id="r-four"></div>
+            <div class="red" id="r-five"></div>
+            <div class="red" id="r-six"></div>
+            <div class="red" id="r-seven"></div>
+        </section>
+    </body>
+</html>
