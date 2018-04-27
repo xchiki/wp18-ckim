@@ -1,7 +1,7 @@
 # wp18-ckim
 digital bits: 
-- https://github.com/xchiki/wp18-ckim/blob/master/Week%201/DigitalBits/apartmentkey.html
-- https://github.com/xchiki/wp18-ckim/blob/master/Week%201/DigitalBits/beautyblender.html
-- https://github.com/xchiki/wp18-ckim/blob/master/Week%201/DigitalBits/charger.html
-- https://github.com/xchiki/wp18-ckim/blob/master/Week%201/DigitalBits/perfume.html
-- https://github.com/xchiki/wp18-ckim/blob/master/Week%201/DigitalBits/waterbottle.html
+- https://xchiki.github.io/wp18-ckim/apartmentkey.html
+- https://xchiki.github.io/wp18-ckim/beautyblender.html
+- https://xchiki.github.io/wp18-ckim/charger.html
+- https://xchiki.github.io/wp18-ckim/perfume.html
+- https://xchiki.github.io/wp18-ckim/waterbottle.html
