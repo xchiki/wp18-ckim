@@ -5,12 +5,12 @@
         <title>Flag</title>
         <style>    
             div { 
-                width:100%; height: 100%; 
+                width: 100%; height: 100%; 
             }
             
             section { 
                 display: grid;
-                grid-template-columns: repeat(5, 1fr);
+                grid-template-columns: repeat(5, 180px);
                 grid-template-rows: repeat(13, 30px);
                 align-items: center;
                 justify-items: center;
@@ -22,16 +22,24 @@
                 grid-row: 1/7;
                 background: blue;
                 z-index: 1;
-                
-                display: grid;
-                grid-template-columns: repeat(6, 1fr);
-                grid-template-rows: repeat(9, 1fr);
+            }
+            
+            #stars {
+                margin-left: 15px;
             }
             
             .star1 {
                 width: 35px;
-                margin-top: -4px;
-                justify-content: space-evenly;
+                margin-right: 20px;
+            }
+            
+            #startwo, #starfour, #starsix, #stareight {
+                margin-top: -162px;
+                margin-left: 28px;
+            }
+            
+            #starthree, #starfive, #starseven, #starnine {
+                margin-top: -162px;
             }
             
 /*-------------RED-------------*/
@@ -72,15 +80,77 @@
     <body>
         <section>
             <div class="blue">
-                <img src="star.svg" class="star1"/>
-                <img src="star.svg" class="star1"/>
-                <img src="star.svg" class="star1"/>
-                <img src="star.svg" class="star1"/>
-                <img src="star.svg" class="star1"/>
-                <img src="star.svg" class="star1"/>
-                
-                
-                
+            <div id="stars">
+                <div id="starone">
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                </div>
+                <div id="startwo">  
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                </div> 
+                <div id="starthree">    
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                </div>
+                <div id="starfour">    
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                </div>   
+                <div id="starfive">
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                </div>
+                <div id="starsix">    
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                </div>   
+                <div id="starseven">
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                </div>
+                <div id="stareight">    
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                </div>   
+                <div id="starnine">
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                    <img src="star.svg" class="star1"/>
+                </div>
+            </div>
+            
             </div>
             <div class="red" id="r-one"></div>
             <div class="red" id="r-two"></div>
