@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <style>
+            * {
+                margin: 0;
+            }
+
+            section {
+                display: flex;
+                width: 100vw;
+                height: 150px;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid red;
+                
+/*                margin: 2px; this will override the top margin for section*/
+            }
+            
+            section div {
+                min-width: 600px;
+                background: green;
+                border: 1px solid yellow;
+                flex: 200px;
+                flex-grow: 2;
+                flex-shrink: 1;
+                flex-basis: 300px;
+                margin: 20px;
+                flex-wrap: wrap;
+            }
+            
+            .red {
+                background: red;
+                justify-content: center;
+                flex-grow: 2;
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <div>whatever i want</div>
+            <div class="red">number 2</div>
+            <div class="red">number 3</div>
+        </section>
+    </body>
+</html>
