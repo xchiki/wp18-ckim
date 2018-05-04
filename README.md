@@ -30,3 +30,6 @@ grid drawing:
 ## Week 3
 senegal flag:
 - https://xchiki.github.io/wp18-ckim/week3/senegalflag.html
+
+senegal flag media query:
+- https://xchiki.github.io/wp18-ckim/week3/senegalflag-media.html
