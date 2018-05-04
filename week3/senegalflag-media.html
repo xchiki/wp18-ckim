@@ -20,6 +20,7 @@
                 flex-shrink: 1;
                 flex-basis: 200px;
                 flex-wrap: wrap;
+                height: calc(100vw*.5);
             }
             
             #yellow {
@@ -29,9 +30,10 @@
                 flex-grow: 2;
                 flex-shrink: 1;
                 flex-basis: 200px;
-                flex-wrap: wrap;
                 justify-content: center;
                 align-items: center;
+                flex-wrap: wrap;
+                height: calc(100vw*.5);
             }
             
             #yellow img {
@@ -48,6 +50,23 @@
                 flex-grow: 2;
                 flex-shrink: 1;
                 flex-basis: 200px;
+                flex-wrap: wrap;
+                height: calc(100vw*.5);
+            }
+            
+            @media screen and (max-width: 600px) {
+                #green {
+                    background: red;
+                }
+                
+                #red {
+                    background: green;
+                }
+                
+                section {
+                    width: 90vw;
+                    height: calc(90vw*.5);
+                }
             }
         </style>
     </head>
