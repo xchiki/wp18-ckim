@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        <style>
+            /*-----------BURKINA FASO FLAG-----------*/
+            #burkinafaso {
+                display: grid;
+                grid-template-columns: 200px 200px 200px;
+                grid-template-rows: 200px 0px 200px;
+            }
+            
+            .bfred {
+                background: red;
+            }
+            
+            .bfgreen {
+                background: green;
+            }
+            
+            #star {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            #yellowstar {
+                position: absolute;
+                width: 100px;
+            }
+            
+            /*-----------SENEGAL FLAG-----------*/
+            * {
+                margin: 0;
+            }
+            
+            #senegal {
+                display: flex;
+                width: 100vw;
+                height: calc(100vw*.5);
+                flex-wrap: wrap;
+            }
+            
+            #green {
+                display: flex;
+                background: green;
+                min-width: 300px;
+                flex-grow: 2;
+                flex-shrink: 1;
+                flex-basis: 200px;
+                flex-wrap: wrap;
+                height: calc(100vw*.5);
+            }
+            
+            #yellow {
+                display: flex;
+                background: yellow;
+                min-width: 300px;
+                flex-grow: 2;
+                flex-shrink: 1;
+                flex-basis: 200px;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                height: calc(100vw*.5);
+            }
+            
+            #yellow img {
+                display: flex;
+                min-width: 100px;
+                flex-grow: 2;
+                flex-shrink: 1;
+            }
+            
+            #red {
+                display: flex;
+                background: red;
+                min-width: 300px;
+                flex-grow: 2;
+                flex-shrink: 1;
+                flex-basis: 200px;
+                height: calc(100vw*.5);
+            }
+        </style>
+        
+        <script>
+            $(document).ready(function () {
+                $("#senegal").hide();
+                
+                $("#burkinafaso").click(function () {
+                    $("#burkinafaso").hide();
+                    $("#senegal").show();
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <section id="burkinafaso">
+            <div class="bfred"></div>
+            <div class="bfred"></div>
+            <div class="bfred"></div>
+            <div></div>
+            <div id="star"><img id="yellowstar" src="images/star2.svg"></div>
+            <div></div>
+            <div class="bfgreen"></div>
+            <div class="bfgreen"></div>
+            <div class="bfgreen"></div>
+        </section>
+        <section id="senegal">
+            <div id="green"></div>
+            <div id="yellow"><img src="images/star.svg"></div>
+            <div id="red"></div>
+        </section>
+    </body>
+</html>
