@@ -33,3 +33,6 @@ senegal flag:
 
 senegal flag media query:
 - https://xchiki.github.io/wp18-ckim/week3/senegalflag-media.html
+
+burkina faso jQuery:
+- https://xchiki.github.io/wp18-ckim/week3/burkinafasoflag.html
