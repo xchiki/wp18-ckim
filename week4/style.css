@@ -1,0 +1,85 @@
+body {
+    font-family: 'Roboto', sans-serif;
+/*    font-family: 'Frank Ruhl Libre', serif;*/
+}
+
+@-webkit-keyframes typing {
+    from { width: 0 }
+    to { width: 380px }
+}
+
+@-webkit-keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #4BD3FF }
+}
+
+h1 { 
+    position: fixed;
+    height: 70px;
+    font-size: 50px;
+    margin-top: calc((25%-40px)/2);
+    margin-left: 15%;
+    width: 380px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: .1em solid #4BD3FF;
+    
+    -webkit-animation: typing 1s steps(25, end),
+        blink-caret 1s step-end infinite;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 90%;
+    background-color: aqua;
+    margin: 0 auto;
+    position: fixed;
+    margin-top: 20%;
+}
+
+.hidden {
+    display: none;
+}
+
+#one {
+    position: fixed;
+}
+
+.container > div {
+    display: inline-block;
+}
+
+#slideshow {
+    margin: 0;
+    position: relative;
+	width: 150px;
+    height: 250px;
+    border: 5px solid red;
+}
+
+#slideshow > div {
+	position: absolute;
+	top: 0; 
+	left: 0; 
+	right: 0; 
+	bottom: 0; 
+}
+
+#slideshow img {
+    width: 100%;
+    margin: 0;
+}
+
+.container a {
+    width: 40px;
+    font-size: 20px;
+    display: inline-block;
+    color: lightgray;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 250px;
+    font-weight: 300;
+    padding: 0 10px;
+}
