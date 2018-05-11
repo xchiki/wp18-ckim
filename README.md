@@ -39,3 +39,7 @@ burkina faso jQuery:
 
 animation:
 - https://xchiki.github.io/wp18-ckim/week3/assignment3/index.html
+
+## Week 4
+candycane:
+- https://xchiki.github.io/wp18-ckim/week4/candycane.html
