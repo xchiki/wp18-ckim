@@ -36,3 +36,6 @@ senegal flag media query:
 
 burkina faso jQuery:
 - https://xchiki.github.io/wp18-ckim/week3/burkinafasoflag.html
+
+animation:
+- https://xchiki.github.io/wp18-ckim/week3/assignment3/index.html
