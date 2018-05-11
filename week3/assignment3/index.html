@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>clickBubble</title>
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.clickBubble.min.js"></script>
+    
+    <style>
+        body {
+            width: 100vw;
+            height: 90vh;
+            color: #fff;
+            background: linear-gradient(-45deg, #073C6C, #055398, #23A6D5, #DAF5FF);
+            background-size: 400% 400%;
+            -webkit-animation: Gradient 20s ease infinite;
+            font-family: sans-serif;
+        }
+
+        @-webkit-keyframes Gradient {
+            0% {
+                background-position: 0% 50%
+            }
+            50% {
+                background-position: 100% 50%
+            }
+            100% {
+                background-position: 0% 50%
+            }
+        }
+        
+        img {
+            width: 50px;
+        }
+        
+        #koione {
+            top: 50%;
+            right: 50%;
+            position: absolute;
+            animation: 20s fly infinite linear;
+            transform: translateX(-50%);
+        }
+        
+        @keyframes fly {
+            0%,
+            100% {
+                right: 10%;
+                transform: rotateY(180deg) rotate(90deg);
+                top: 40%
+            }
+            1% {
+                transform: rotateY(0deg) rotate(90deg);
+            }
+            25% {
+                top: 43%;
+            }
+            49% {
+                transform: rotateY(0deg) rotate(90deg);
+            }
+            50% {
+                right: 90%;
+                top: 40%;
+                transform: rotateY(180deg) rotate(90deg);
+            }
+            75% {
+                top: 43%;
+            }
+        }
+        
+        h1 {
+            font-weight: 100;
+            font-size: 16px;
+            margin-left: 5%;
+            margin-top: 5%;
+        }
+    </style>
+    
+	<script type="text/javascript">
+		$('html').clickBubble({
+			color: 'white',
+			size: 600,
+			time: 1300,
+			borderWidth: 5
+		});
+	</script>
+</head>
+<body>
+	<div id="koione"><img src="images/koi1.svg"></div>
+    <h1>lonely fish.</h1>
+</body>
+</html>
