@@ -1,7 +1,5 @@
 var main = function() {
 
-	var paused = false
-
 	$('.arrowR').click(function() {
 		paused = true;
 		$('#slideshow > div:first')
