@@ -43,3 +43,6 @@ animation:
 ## Week 4
 candycane:
 - https://xchiki.github.io/wp18-ckim/week4/candycane.html
+
+final assignment:
+- https://xchiki.github.io/wp18-ckim/week4/assignment4.html
