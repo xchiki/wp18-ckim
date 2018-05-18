@@ -31,11 +31,19 @@ h1 {
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 
+    grid-template-rows: 1fr 20px;
     width: 75%;
     position: fixed;
     margin-top: 20%;
     margin-left: 15%
+}
+
+.week {
+    margin-top: -100px;
+    font-size: 13px;
+    width: 210px;
+    text-align: center;
+    margin-left: 16%;
 }
 
 
