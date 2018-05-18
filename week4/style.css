@@ -31,11 +31,13 @@ h1 {
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 
     width: 75%;
     position: fixed;
     margin-top: 20%;
     margin-left: 15%
 }
+
 
 .slideshow > div {
     display: none;
