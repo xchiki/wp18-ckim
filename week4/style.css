@@ -18,7 +18,7 @@ h1 {
     height: 70px;
     font-size: 50px;
     margin-top: calc((25%-40px)/2);
-    margin-left: 15%;
+    margin-left: 12%;
     width: 380px;
     white-space: nowrap;
     overflow: hidden;
@@ -35,7 +35,7 @@ h1 {
     width: 75%;
     position: fixed;
     margin-top: 20%;
-    margin-left: 15%
+    margin-left: 12%
 }
 
 .week {
