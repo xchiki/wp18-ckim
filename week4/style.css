@@ -18,7 +18,7 @@ h1 {
     height: 70px;
     font-size: 50px;
     margin-top: calc((25%-40px)/2);
-/*    margin-left: 12%;*/
+    margin-left: calc((100% - 380px)/2);
     width: 380px;
     white-space: nowrap;
     overflow: hidden;
@@ -32,10 +32,9 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 20px;
-    width: 75%;
+    width: 100%;
     position: fixed;
     margin-top: 20%;
-/*    margin-left: 12%*/
 }
 
 .week {
@@ -43,7 +42,7 @@ h1 {
     font-size: 13px;
     width: 210px;
     text-align: center;
-/*    margin-left: 16%;*/
+    margin-left: 12%;
 }
 
 
